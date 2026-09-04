@@ -47,11 +47,11 @@ Data is split chronologically (70/15/15, train/val/test) so no model ever trains
 
 ## Models
 
-Persistence- Naive baseline that predicts current volatility repeats
-EWMA- Exponentially-weighted volatility (λ = 0.94)
-HAR- Linear regression on 5/20/60-day realized vol
-Random Forest- Decision trees using 21 engineered features
-XGBoost- Gradient-boosted trees on the same 21 features
+- Persistence - Naive baseline that predicts current volatility repeats
+- EWMA - Exponentially-weighted volatility (λ = 0.94)
+- HAR - Linear regression on 5/20/60-day realized vol
+- Random Forest - Decision trees using 21 engineered features
+- XGBoost - Gradient-boosted trees on the same 21 features
 
 ## Results
 
