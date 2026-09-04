@@ -4,6 +4,7 @@ Forecasts SPY's 5-day-forward realized volatility using multiple models and comp
 
 # Tree
 
+```
 .
 ├── data
 │   ├── processed
@@ -14,8 +15,6 @@ Forecasts SPY's 5-day-forward realized volatility using multiple models and comp
 │       ├── spy_daily.parquet
 │       ├── vix_daily.csv
 │       └── vix_daily.parquet
-├── README.md
-├── requirements.txt
 ├── results
 │   ├── forecasts
 │   │   ├── ewma_forecasts.csv
@@ -25,22 +24,22 @@ Forecasts SPY's 5-day-forward realized volatility using multiple models and comp
 │   │   └── xgboost_forecasts.csv
 │   ├── model_comparison.png
 │   └── model_metrics.csv
-└── src
-    ├── __init__.py
-    ├── __pycache__
-    │   ├── __init__.cpython-311.pyc
-    │   └── visualize.cpython-311.pyc
-    ├── download_data.py
-    ├── evaluation.py
-    ├── feature_engineering.py
-    ├── models
-    │   ├── __init__.py
-    │   ├── baseline.py
-    │   ├── ewma.py
-    │   ├── har.py
-    │   ├── random_forest.py
-    │   └── xgboost_model.py
-    └── visualize.py
+├── src
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── baseline.py
+│   │   ├── ewma.py
+│   │   ├── har.py
+│   │   ├── random_forest.py
+│   │   └── xgboost_model.py
+│   ├── __init__.py
+│   ├── download_data.py
+│   ├── evaluation.py
+│   ├── feature_engineering.py
+│   └── visualize.py
+├── README.md
+└── requirements.txt
+```
 
 ## Methods
 
