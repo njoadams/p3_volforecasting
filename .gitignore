@@ -1,2 +1,5 @@
 .venv/
 .git_backup/
+__pycache__/
+*.pyc
+.DS_Store
